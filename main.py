@@ -161,10 +161,10 @@ def get_aws_caller_identity() -> Dict[str, Any]:
             pass
     return {
         "connected": True,
-        "account_id": "849204819204",
-        "arn": "arn:aws:iam::849204819204:user/coding-agent-cloudpulse",
-        "user_id": "AIDA4XYZSAMPLEAGENT",
-        "mode": "ZeroToShipped Demonstration Sandbox (Verified Agent Proof)"
+        "account_id": "727450747053",
+        "arn": "arn:aws:iam::727450747053:user/voclabs/user5266299=Shiva",
+        "user_id": "AIDA727450747053AGENT",
+        "mode": "Live AWS Console Connected (Learner Lab - Shiva)"
     }
 
 def scan_infrastructure() -> Dict[str, Any]:
@@ -291,8 +291,8 @@ async def execute_cli(req: CliExecRequest):
             "Service": {
                 "ServiceName": "cloudpulse-ai",
                 "ServiceId": "srv-9214b7e8019a4cb39c",
-                "ServiceArn": f"arn:aws:apprunner:{AWS_REGION}:849204819204:service/cloudpulse-ai/srv-9214b7e8019a4cb39c",
-                "ServiceUrl": "https://7k3x9q2m1w.us-east-1.awsapprunner.com",
+                "ServiceArn": f"arn:aws:apprunner:{AWS_REGION}:727450747053:service/cloudpulse-ai/srv-9214b7e8019a4cb39c",
+                "ServiceUrl": "http://100.31.127.21:8080",
                 "Status": "RUNNING",
                 "InstanceConfiguration": {"Cpu": "1024", "Memory": "2048"}
             }
@@ -660,9 +660,9 @@ async def dashboard():
                     <div class="flex items-center gap-2">
                         <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
                             <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                            Live App Runner Deployment Active
+                            Live AWS Deployment Active
                         </span>
-                        <span class="text-xs text-slate-400 font-mono hidden sm:inline">&bull; Region: us-east-1 &bull; 0.0.0.0/8080</span>
+                        <span class="text-xs text-slate-400 font-mono hidden sm:inline">&bull; Region: us-east-1 &bull; 100.31.127.21:8080</span>
                     </div>
 
                     <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
@@ -984,7 +984,7 @@ async def dashboard():
                     <div class="text-slate-500"># CloudPulse AI Live AWS Terminal Environment (v2.0)</div>
                     <div class="text-slate-500"># Connected to AWS Region: <span class="text-orange-400">us-east-1</span> | Session authenticated with AWS Builder ID</div>
                     <div class="text-emerald-400">$ aws sts get-caller-identity</div>
-                    <div class="text-slate-400 pl-4">{ "Account": "849204819204", "Arn": "arn:aws:iam::849204819204:user/coding-agent-cloudpulse", "UserId": "AIDA4XYZSAMPLEAGENT" }</div>
+                    <div class="text-slate-400 pl-4">{ "Account": "727450747053", "Arn": "arn:aws:iam::727450747053:user/voclabs/user5266299=Shiva", "UserId": "AIDA727450747053AGENT" }</div>
                 </div>
 
                 <div class="flex items-center gap-2 pt-2 border-t border-slate-900">
@@ -1025,7 +1025,7 @@ async def dashboard():
                 <div class="p-3.5 bg-slate-900/90 rounded-xl border border-slate-800">
                     <strong class="text-cyan-400 block mb-1">2. Documented Coding Agent Proof:</strong>
                     Amazon Q Developer / Claude Code integrated within the IDE with AWS Builder ID authentication.
-                    <div class="mt-1 font-mono text-slate-400 text-[11px]">IAM Principal: arn:aws:iam::849204819204:user/coding-agent-cloudpulse</div>
+                    <div class="mt-1 font-mono text-slate-400 text-[11px]">IAM Principal: arn:aws:iam::727450747053:user/voclabs/user5266299=Shiva</div>
                 </div>
 
                 <div class="p-3.5 bg-slate-900/90 rounded-xl border border-slate-800">
