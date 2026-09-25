@@ -65,8 +65,8 @@ This project was built from scratch and shipped to AWS using an AI Coding Agent 
 ### 1. Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/cloudpulse-ai.git
-cd cloudpulse-ai
+git clone https://github.com/Shiva-Matangulu/cloudpulse-ai-source.git
+cd cloudpulse-ai-source
 
 # Install dependencies
 pip install -r requirements.txt
