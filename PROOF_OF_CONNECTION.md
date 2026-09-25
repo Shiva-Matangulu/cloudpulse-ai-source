@@ -1,6 +1,6 @@
 # Documented Proof of Coding Agent Connection to AWS
 
-As required by the **AWS "Zero to Shipped" Hackathon rules**:
+As required by the **AWS "Zero to Shipped" Hackathon rules **:
 > *"A coding agent connected to the AWS console, with documented proof of the connection"*
 
 This document outlines the exact authentication, architecture, and live deployment topology connecting our coding agent (**Amazon Q Developer / Claude Code**) and the AWS Management Console & Live EC2 environment.
