@@ -11,4 +11,3 @@ ENV/
 .vscode/
 *.swp
 *.swo
-.env_bak
