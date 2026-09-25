@@ -1128,7 +1128,7 @@ async def dashboard():
             renderCharts(data);
         }
 
-        // Render Findings Table with Category Filtering
+        // Render Findings Table with Category Filtering the table
         function renderTable() {
             if (!currentScanData) return;
             const tbody = document.getElementById('findings-table-body');
