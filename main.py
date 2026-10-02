@@ -292,7 +292,7 @@ async def execute_cli(req: CliExecRequest):
                 "ServiceName": "cloudpulse-ai",
                 "ServiceId": "srv-9214b7e8019a4cb39c",
                 "ServiceArn": f"arn:aws:apprunner:{AWS_REGION}:727450747053:service/cloudpulse-ai/srv-9214b7e8019a4cb39c",
-                "ServiceUrl": "http://13.223.101.31:8080",
+                "ServiceUrl": "http://34.226.21.231:8080",
                 "Status": "RUNNING",
                 "InstanceConfiguration": {"Cpu": "1024", "Memory": "2048"}
             }
@@ -662,7 +662,7 @@ async def dashboard():
                             <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
                             Live AWS Deployment Active
                         </span>
-                        <span class="text-xs text-slate-400 font-mono hidden sm:inline">&bull; Region: us-east-1 &bull; 13.223.101.31:8080</span>
+                        <span class="text-xs text-slate-400 font-mono hidden sm:inline">&bull; Region: us-east-1 &bull; 34.226.21.231:8080</span>
                     </div>
 
                     <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">

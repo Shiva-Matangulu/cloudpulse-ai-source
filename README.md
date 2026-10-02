@@ -1,14 +1,14 @@
 # CloudPulse AI — Autonomous AWS Infrastructure & Cost Copilot
 
 [![AWS Hackathon](https://img.shields.io/badge/AWS%20Hackathon-Zero%20to%20Shipped-FF9900?logo=amazon-aws)](https://community.aws)
-[![Ship Gate Status](https://img.shields.io/badge/Ship%20Gate-PASS%20(Verified%20Live)-10B981)](http://13.223.101.31:8080/api/health)
-[![Live Public App](https://img.shields.io/badge/Live%20Application-http%3A%2F%2F13.223.101.31%3A8080-00F0FF)](http://13.223.101.31:8080)
+[![Ship Gate Status](https://img.shields.io/badge/Ship%20Gate-PASS%20(Verified%20Live)-10B981)](http://34.226.21.231:8080/api/health)
+[![Live Public App](https://img.shields.io/badge/Live%20Application-http%3A%2F%2F34.226.21.231%3A8080-00F0FF)](http://34.226.21.231:8080)
 [![Category](https://img.shields.io/badge/Category-%23workplace--efficiency-blue)](#)
 [![Lane](https://img.shields.io/badge/Lane-%23community-purple)](#)
 
 > **Submission for AWS "Zero to Shipped" Hackathon (September - October 2026)**  
-> **Live Public URL**: [http://13.223.101.31:8080](http://13.223.101.31:8080)  
-> **Ship Gate Health Check**: [http://13.223.101.31:8080/api/health](http://13.223.101.31:8080/api/health) (`{"ship_gate_status": "PASS"}`)  
+> **Live Public URL**: [http://34.226.21.231:8080](http://34.226.21.231:8080)  
+> **Ship Gate Health Check**: [http://34.226.21.231:8080/api/health](http://34.226.21.231:8080/api/health) (`{"ship_gate_status": "PASS"}`)  
 > **App Category Tag**: `#workplace-efficiency`  
 > **Lane Tag**: `#community`  
 > **AWS Account ID**: `7274-5074-7053` (us-east-1)
