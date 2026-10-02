@@ -15,8 +15,8 @@ This document outlines the exact authentication, architecture, and live deployme
 - **AWS Account ID**: `7274-5074-7053`
 - **IAM User / Principal ARN**: `arn:aws:iam::727450747053:user/voclabs/user5266299=Shiva`
 - **Region**: `us-east-1` (US East - N. Virginia)
-- **Live Public URL**: [http://100.31.127.21:8080](http://100.31.127.21:8080)
-- **Live Ship Gate Health Check**: [http://100.31.127.21:8080/api/health](http://100.31.127.21:8080/api/health)
+- **Live Public URL**: [http://13.223.101.31:8080](http://13.223.101.31:8080)
+- **Live Ship Gate Health Check**: [http://13.223.101.31:8080/api/health](http://13.223.101.31:8080/api/health)
 
 ### Documented Terminal Authentication Log:
 ```bash
@@ -54,7 +54,7 @@ $ aws sts get-caller-identity --output json
 - **Screenshot Evidence**: [`screenshots/09_aws_ec2_instances_console.png`](screenshots/09_aws_ec2_instances_console.png)
 
 ### Proof Item 3: Live Ship Gate Verification (HTTP 200 PASS)
-- **Endpoint**: [http://100.31.127.21:8080/api/health](http://100.31.127.21:8080/api/health)
+- **Endpoint**: [http://13.223.101.31:8080/api/health](http://13.223.101.31:8080/api/health)
 - **Response Payload**:
   ```json
   {
