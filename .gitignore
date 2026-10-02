@@ -11,3 +11,5 @@ ENV/
 .vscode/
 *.swp
 *.swo
+
+.kilo/
